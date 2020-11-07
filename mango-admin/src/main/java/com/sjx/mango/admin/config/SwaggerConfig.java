@@ -1,4 +1,4 @@
-package sjx.demo.config;
+package com.sjx.mango.admin.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;

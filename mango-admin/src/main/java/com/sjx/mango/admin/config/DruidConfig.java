@@ -1,4 +1,4 @@
-package sjx.demo.config;
+package com.sjx.mango.admin.config;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.alibaba.druid.support.http.StatViewServlet;

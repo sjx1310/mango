@@ -1,4 +1,4 @@
-package sjx.demo;
+package com.sjx.mango.admin;
 
 
 import org.mybatis.generator.api.IntrospectedTable;

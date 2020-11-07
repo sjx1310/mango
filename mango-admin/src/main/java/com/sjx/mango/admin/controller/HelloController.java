@@ -1,4 +1,4 @@
-package sjx.demo.controller;
+package com.sjx.mango.admin.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

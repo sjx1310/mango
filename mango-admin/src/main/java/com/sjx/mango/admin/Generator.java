@@ -1,4 +1,4 @@
-package sjx.demo;
+package com.sjx.mango.admin;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
@@ -20,7 +20,7 @@ public class Generator {
 
     public static void main(String[] args){
         List<String> warnings = new ArrayList<>();
-        File configFile = new File("D:\\Projects\\springdemo\\src\\main\\resources\\generatorConfig.xml");
+        File configFile = new File("D:\\Projects\\mango\\mango-admin\\src\\main\\resources\\generatorConfig.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         try {
             Configuration config = cp.parseConfiguration(configFile);

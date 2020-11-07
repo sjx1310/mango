@@ -1,4 +1,4 @@
-package sjx.demo.config;
+package com.sjx.mango.admin.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
