@@ -9,6 +9,16 @@ public class PageResult{
     private int pageNum;
     private int pageSize;
     private  long totalSize;
+    private int totalPages;
+
+    public int getTotalPages() {
+        return totalPages;
+    }
+
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
+    }
+
     private List<?> content;
 
     public int getPageNum() {
