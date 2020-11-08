@@ -30,8 +30,8 @@ public class NewbatisGenerator extends DefaultCommentGenerator{
 
     /**
      * 对类的注解
-     * @param topLevelClass
-     * @param introspectedTable
+     * @param topLevelClass super class
+     * @param introspectedTable table
      */
     @Override
     public void addModelClassComment(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
