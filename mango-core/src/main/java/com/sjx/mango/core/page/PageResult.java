@@ -19,7 +19,7 @@ public class PageResult{
         this.totalPages = totalPages;
     }
 
-    private List<?> content;
+     public List<?> content;
 
     public int getPageNum() {
         return pageNum;

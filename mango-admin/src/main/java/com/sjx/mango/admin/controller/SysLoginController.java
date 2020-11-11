@@ -13,6 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 
+/**
+ * @author sjx
+ */
+
 @RestController
 public class SysLoginController{
     @Autowired
@@ -23,9 +27,13 @@ public class SysLoginController{
         response.setHeader("Cache-control","no-store,no-cache");
         response.setContentType("image/jpg");
         String text = producer.createText();
+        // 生成文字验证码
 
         BufferedImage image = producer.createImage(text);
+        //生成图片验证码
+
         request.getSession().setAttribute(Constants.KAPTCHA_SESSION_KEY,text);
+        //保存验证码到session
         ServletOutputStream os = response.getOutputStream();
         ImageIO.write(image,"jpg",os);
         IOUtils.closeQuietly(os);
